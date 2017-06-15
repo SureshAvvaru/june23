@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+#a script to explain functions
+
+sayhello ()
+{
+echo "This is a function";
+}
+sayhello;
+
