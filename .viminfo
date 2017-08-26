@@ -37,21 +37,26 @@ $
 # Registers:
 
 # File marks:
-'0  1  21  ~/new.txt
-'1  1  21  ~/repofile.txt
-'2  1  21  ~/testingfile.txt
-'3  1  0  /etc/ansible/hosts
-'4  1  0  /etc/ansible/hosts/
-'5  2  21  ~/git-server/testerfile.txt
-'6  2  38  ~/git-server/Augustrepo/README.md
-'7  8  0  ~/dockerrmi.sh
-'8  3  29  ~/Python-Server/1.py
-'9  1  2  ~/Python-Server/1.py
+'0  1  7  ~/testingfile.txt
+'1  1  13  ~/code1.txt
+'2  2  0  ~/testcode.txt
+'3  1  14  ~/coding.txt
+'4  1  23  ~/abcd.txt
+'5  1  21  ~/new.txt
+'6  1  21  ~/repofile.txt
+'7  1  0  /etc/ansible/hosts
+'8  1  0  /etc/ansible/hosts/
+'9  2  21  ~/git-server/testerfile.txt
 
 # Jumplist (newest first):
+-'  1  7  ~/testingfile.txt
+-'  1  13  ~/code1.txt
+-'  2  0  ~/testcode.txt
+-'  1  0  ~/testcode.txt
+-'  1  14  ~/coding.txt
+-'  1  23  ~/abcd.txt
 -'  1  21  ~/new.txt
 -'  1  21  ~/repofile.txt
--'  1  21  ~/testingfile.txt
 -'  1  0  /etc/ansible/hosts
 -'  1  0  /etc/ansible/hosts/
 -'  2  21  ~/git-server/testerfile.txt
@@ -141,14 +146,39 @@ $
 -'  1  0  ~/dockerfile2
 -'  1  0  ~/dockerfile
 -'  1  0  ~/dockerfile2/dockerfile
--'  28  0  ~/dockerfile2/dockerfile
--'  1  0  ~/dockerfile2
--'  1  0  ~/dockerfile2
--'  1  0  ~/dockerfile2/dockerfile
--'  28  0  ~/dockerfile2/dockerfile
--'  1  0  ~/dockerfile2
 
 # History of marks within files (newest to oldest):
+
+> ~/testingfile.txt
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	8
+	+	1	7
+
+> ~/code1.txt
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/testcode.txt
+	"	2	0
+	^	2	0
+	.	1	17
+	+	1	17
+
+> ~/coding.txt
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
+
+> ~/abcd.txt
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
 
 > ~/new.txt
 	"	1	21
@@ -161,12 +191,6 @@ $
 	^	1	22
 	.	2	0
 	+	2	0
-
-> ~/testingfile.txt
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
 
 > /etc/ansible/hosts
 	"	1	0
@@ -290,28 +314,3 @@ $
 	^	1	26
 	.	1	25
 	+	1	25
-
-> ~/git-server/winterrepo/README.md
-	"	2	19
-	^	2	20
-	.	2	19
-	+	1	12
-	+	2	19
-
-> ~/git-server/README.md
-	"	2	26
-	^	2	27
-	.	2	26
-	+	2	26
-
-> ~/suresh/file9
-	"	1	9
-	^	1	10
-	.	1	9
-	+	1	9
-
-> ~/file1
-	"	1	19
-	^	1	20
-	.	1	20
-	+	1	20
